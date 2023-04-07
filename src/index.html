@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="¡Compra tus pokemons favoritos al mejor precio!" />
+    <meta name="robots" content="index-follow" />
+    <title>PokeShop</title>
+    <link rel="stylesheet" href="./styles/style.css"/>
+</head>
+<body>
+    <header>
+        <div>
+            <picture class="logo">
+                <source srcset="./images/logo-pokemon.png" media="(min-width:800px)"/>
+                <img src="./images/pokemon-logo2.png" alt="Logo pokemon"/>
+            </picture>
+            <form id="busqueda-articulos" method="get" action="#">
+                <input type="text" name="barra-busqueda" placeholder="Busca pokemons, objetos, MTs, MOs, etc." />
+                <input type="submit" value="Buscar"/>
+            </form>
+        </div>
+        <nav>
+            <ul class="nav-bar">
+                <li class="nav-bar__item">
+                    <a href="#"> 
+                        Mis Artículos
+                    </a>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="#"> 
+                        Notificaciones
+                    </a>
+                </li>
+                <li class="nav-bar__item">
+                    <a href="#"> 
+                        Perfil
+                    </a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="pokemons">
+            <h2>Pokemons</h2>
+            <ul class="pokemons__card-list">
+                <li class="card">
+                    <figure class="card__image">
+                        <img src="./images//Charmander_XY.webp" alt="Imagen Producto XXXXX"/>
+                    </figure>
+                    <div class="card__description">
+                        <h3>Charmander lvl 5</h3>
+                        <p>
+                            Un Charmander recién salido del huevo. Buena crianza, cuenta con ataques muy poderosos.
+                        </p>
+                        <div class="card__description__price">
+                            <h3>$200.000</h3>
+                            <p>o 10 cuotras de <span class="price">$2200</span></p>
+                        </div>
+                    </div>
+                    <a class="card__view-more">
+                        >> Ver Mas
+                    </a>
+                </li>
+                <li class="card">
+                    <figure class="card__image">
+                        <img src="./images//Eevee_GO_variocolor.webp" alt="Imagen Producto XXXXX"/>
+                    </figure>
+                    <div class="card__description">
+                        <h3>Eevee lvl 5</h3>
+                        <p>
+                            Un pokemon adorable, perfecto como mascota de un hogar con niños
+                        </p>
+                        <div class="card__description__price">
+                            <h3>$200.000</h3>
+                            <p>o 10 cuotras de <span class="price">$2200</span></p>
+                        </div>
+                    </div>
+                    <a class="card__view-more">
+                        >> Ver Mas
+                    </a>
+                </li>
+                <li class="card">
+                    <figure class="card__image">
+                        <img src="./images/Lucario_XY.webp" alt="Imagen Producto XXXXX"/>
+                    </figure>
+                    <div class="card__description">
+                        <h3>Lucario lvl 33</h3>
+                        <p>
+                            Buena naturaleza, buenos ataques, ideal para crianza.
+                        </p>
+                        <div class="card__description__price">
+                            <h3>$900.000</h3>
+                            <p>o 10 cuotras de <span class="price">$9900</span></p>
+                        </div>
+                    </div>
+                    <a class="card__view-more">
+                        >> Ver Mas
+                    </a>
+                </li>
+                <li>
+                    <a class="card__view-more">
+                        >> Más resultados
+                    </a>
+                </li>
+            </ul>
+        </section>
+        <hr />
+        <section class="items">
+            <h2>Items</h2>
+            <ul class="items__card-list">
+                <li class="card">
+                    <figure class="card__image">
+                        <img src="./images/Ultra_Ball_29.webp" alt="Imagen Producto XXXXX"/>
+                    </figure>
+                    <div class="card__description">
+                        <h3>Kit Ultraball x10</h3>
+                        <p>
+                            Ideal para aventuras, 10 Ultraballs nuevas, incluye una Honor Ball de regalo!
+                        </p>
+                        <div class="card__description__price">
+                            <h3>$5.000</h3>
+                            <p>o 5 cuotras de <span class="price">$1200</span></p>
+                        </div>
+                    </div>
+                    <a class="card__view-more">
+                        >> Ver Mas
+                    </a>
+                </li>
+                <li class="card">
+                    <figure class="card__image">
+                        <img src="./images//Pok28Dream_World.webp" alt="Imagen Producto XXXXX"/>
+                    </figure>
+                    <div class="card__description">
+                        <h3>Kit Pokeballs x10</h3>
+                        <p>
+                            Kit de 10 Pokeballs pensado para entrenadores principiantes. ¡Incluye una Honor Ball de regalo!
+                        </p>
+                        <div class="card__description__price">
+                            <h3>$1.000</h3>
+                            <p>o 10 cuotras de <span class="price">$120</span></p>
+                        </div>
+                    </div>
+                    <a class="card__view-more">
+                        >> Ver Mas
+                    </a>
+                </li>
+                <li class="card">
+                    <figure class="card__image">
+                        <img src="./images/Poci28Dream_World.webp" alt="Imagen Producto XXXXX"/>
+                    </figure>
+                    <div class="card__description">
+                        <h3>Kit Poción x10</h3>
+                        <p>
+                            Curan 20ps cada una. Kit para entrenadores principiantes.
+                        </p>
+                        <div class="card__description__price">
+                            <h3>$900.000</h3>
+                            <p>o 10 cuotras de <span class="price">$9900</span></p>
+                        </div>
+                    </div>
+                    <a class="card__view-more">
+                        >> Ver Mas
+                    </a>
+                </li>
+                <li>
+                    <a class="card__view-more">
+                        >> Más resultados
+                    </a>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>
+            Derechos reservador 
+        </p>
+    </footer>
+</body>
+</html>
