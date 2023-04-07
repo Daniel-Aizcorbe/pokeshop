@@ -10,9 +10,16 @@ html {
 }
 
 :root {
-    --main-color:  lightblue; 
-    --secondary-color: aquamarine;
-    --text-color: black;
+    --main-color:  #313131; 
+    --secondary-color: #7ACE73;
+    --text-color: #FFECD1;
+    --pokemon-section-color: BDBDBD;
+    --borders: #001524; 
+    --important-color: #5AA552;
+    --primary-color: #FF7D00;
+    --bg-color-main: white;
+    --text-color-bold: #001524;
+    --card-color: #BDBDBD;
 }
 
 header {
@@ -44,6 +51,8 @@ footer {
     justify-content: center;
     align-items: center;
     background-color: var(--main-color);
+    margin-top: 20px;
+    color: var(--card-color);
 }
 
 #busqueda-articulos {
@@ -55,6 +64,7 @@ footer {
     width: 100%;
     max-width: 200px;
     min-width: 150px;
+    color: var(--text-color-bold);
     
 }
 
@@ -104,7 +114,7 @@ footer {
 }
 
 .nav-bar__item:hover {
-    border-bottom: solid 1px var(--secondary-color); 
+    border-bottom: solid 1px var(--text-color); 
 
 }
 
@@ -113,11 +123,13 @@ footer {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: var(--bg-color-main);
 }
 
 .pokemons h2, .items h2 {
     font-size: 2rem;
     padding: 20px;
+    color: var(--text-color-bold);
 }
 
 .pokemons__card-list, .items__card-list {
@@ -132,7 +144,8 @@ footer {
 
 .card {
     width: 270px;
-    border: 1px solid black;
+    border: 1px solid var(--borders);
+    background-color: var(--card-color);
     padding: 10px;
     border-radius: 15px;
     height: 300px;
@@ -184,7 +197,7 @@ footer {
 }
 
 .price {
-    color: green;
+    color: var(--important-color);
 }
 
 .card__view-more {
@@ -195,5 +208,8 @@ footer {
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    border: 1px solid black;
+    border: 1px solid var(--borders);
+    text-decoration: none;
+    color: var(--primary-color);
+    background-color: var(--main-color);
 }
