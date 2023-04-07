@@ -65,7 +65,14 @@ footer {
     max-width: 200px;
     min-width: 150px;
     color: var(--text-color-bold);
-    
+    border: 1px solid var(--borders);
+    border-radius: 5px 0 0 5px;
+}
+
+#busqueda-articulos input[type=submit] {
+    font-size: 1rem;
+    border-radius: 0 5px 5px 0;
+    border: 1px solid var(--borders);
 }
 
 #busqueda-articulos input[type=text]::placeholder {
