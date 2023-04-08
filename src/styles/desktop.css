@@ -19,7 +19,11 @@ nav-bar__item a {
 }
 
 .pokemons__card-list li, .items__card-list li {
-    margin: 10px 20px;
+    margin: 20px 10px;
+}
+
+.pokemons__card-list li:nth-child(2n+1), .items__card-list li:nth-child(2n+1) {
+    margin-right: 10px;
 }
 
 .card {
@@ -30,4 +34,10 @@ nav-bar__item a {
 .card__image img{
     width: 150px;
     height: 120px;
+}
+
+main {
+    padding: auto;
+    margin: auto;
+    max-width: 1000px;
 }
