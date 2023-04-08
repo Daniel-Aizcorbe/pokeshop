@@ -1,0 +1,33 @@
+#busqueda-articulos {
+    justify-content: center;
+}
+
+#busqueda-articulos input[type="text"] {
+    max-width: 700px;
+}
+
+header div {
+    justify-content: center;
+}
+
+nav-bar__item a {
+    font-size: 3.5rem;
+}
+
+.pokemons h2, .items h2 {
+    font-size: 5rem;
+}
+
+.pokemons__card-list li, .items__card-list li {
+    margin: 10px 20px;
+}
+
+.card {
+    width: 300px;
+    height: 350px;
+}
+
+.card__image img{
+    width: 150px;
+    height: 120px;
+}
