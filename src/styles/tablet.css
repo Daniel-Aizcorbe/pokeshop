@@ -1,0 +1,43 @@
+#busqueda-articulos {
+    justify-content: flex-start;
+}
+
+#busqueda-articulos input[type="text"] {
+    max-width: 400px;
+}
+
+#busqueda-articulos input[type="text"]::placeholder {
+    font-size: 1.5rem;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+}
+
+.nav-bar {
+    justify-content: space-evenly;
+    width: 70%;
+}
+
+.nav-bar__item {
+    width: 90px;
+}
+
+.pokemons h2, .items h2 {
+    font-size: 3.5rem;
+}
+
+.pokemons__card-list, .items__card-list {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.pokemons__card-list li:nth-child(2n+1), .items__card-list li:nth-child(2n+1) {
+    margin-right: 20px;
+}
+
+.card {
+    width: 200px;
+}

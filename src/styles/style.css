@@ -58,6 +58,7 @@ footer {
 #busqueda-articulos {
     display: flex;
     width: 70%;
+    justify-content: center;
 }
 
 #busqueda-articulos input[type=text]{
@@ -150,7 +151,9 @@ footer {
 }
 
 .card {
-    width: 270px;
+    min-width: 270px;
+    width: 100%;
+    max-width: 320px;
     border: 1px solid var(--borders);
     background-color: var(--card-color);
     padding: 10px;
