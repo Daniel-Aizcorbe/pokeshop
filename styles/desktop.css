@@ -10,7 +10,7 @@ header div {
     justify-content: center;
 }
 
-nav-bar__item a {
+nav-bar__item a, .nav-bar__item--active a {
     font-size: 3.5rem;
 }
 

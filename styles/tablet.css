@@ -20,7 +20,7 @@ nav {
     width: 70%;
 }
 
-.nav-bar__item {
+.nav-bar__item, .nav-bar__item--active  {
     width: 90px;
 }
 

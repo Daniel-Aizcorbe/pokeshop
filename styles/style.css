@@ -104,14 +104,18 @@ footer {
     padding: 10px 10px 5px;
 }
 
-.nav-bar__item {
+.nav-bar__item, .nav-bar__item--active {
     border-bottom: solid 1px var(--main-color); 
     padding: 5px;
     width: 30%;
     text-align: center;
 }
 
-.nav-bar__item a{
+.nav-bar__item--active {
+    border-bottom: solid 1px var(--text-color);
+}
+
+.nav-bar__item a, .nav-bar__item--active a{
     text-decoration: none;
     color: var(--text-color);
     font-size: 1.2rem;
@@ -224,3 +228,4 @@ footer {
     color: var(--primary-color);
     background-color: var(--main-color);
 }
+
