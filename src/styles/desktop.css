@@ -19,7 +19,7 @@ nav-bar__item a {
 }
 
 .pokemons__card-list li, .items__card-list li {
-    margin: 20px 10px;
+    margin: 10px 10px;
 }
 
 .pokemons__card-list li:nth-child(2n+1), .items__card-list li:nth-child(2n+1) {
